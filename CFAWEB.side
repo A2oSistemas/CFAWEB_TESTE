@@ -4059,6 +4059,614 @@
       ],
       "value": ""
     }]
+  }, {
+    "id": "d735d6ee-a86b-41f5-bbd1-240b4f3fbf2a",
+    "name": "CT009-REQUISICAO",
+    "commands": [{
+      "id": "ad034aae-5c60-4dc3-bbc0-5906d99628fc",
+      "comment": "",
+      "command": "open",
+      "target": "http://192.168.0.30:3035/#/login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "747cf173-eb40-40ad-b09e-95114446af50",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1920x1048",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f6252834-33ef-4147-84ba-e83ce88bca05",
+      "comment": "",
+      "command": "click",
+      "target": "id=mat-input-0",
+      "targets": [
+        ["id=mat-input-0", "id"],
+        ["css=#mat-input-0", "css:finder"],
+        ["xpath=//input[@id='mat-input-0']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a415fda1-d036-4e96-b7ce-cf0aaa244ace",
+      "comment": "",
+      "command": "type",
+      "target": "id=mat-input-0",
+      "targets": [
+        ["id=mat-input-0", "id"],
+        ["css=#mat-input-0", "css:finder"],
+        ["xpath=//input[@id='mat-input-0']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "saj"
+    }, {
+      "id": "9a0e3ba3-eb66-4296-a706-b3ed8c3d5b00",
+      "comment": "",
+      "command": "type",
+      "target": "id=mat-input-1",
+      "targets": [
+        ["id=mat-input-1", "id"],
+        ["css=#mat-input-1", "css:finder"],
+        ["xpath=//input[@id='mat-input-1']", "xpath:attributes"],
+        ["xpath=//div[2]/mat-form-field/div/div/div[2]/input", "xpath:position"]
+      ],
+      "value": "1"
+    }, {
+      "id": "c909251f-f946-4771-9550-540eaf23084d",
+      "comment": "",
+      "command": "type",
+      "target": "id=mat-input-2",
+      "targets": [
+        ["id=mat-input-2", "id"],
+        ["css=#mat-input-2", "css:finder"],
+        ["xpath=//input[@id='mat-input-2']", "xpath:attributes"],
+        ["xpath=//div[3]/mat-form-field/div/div/div[2]/input", "xpath:position"]
+      ],
+      "value": "master"
+    }, {
+      "id": "8181ea75-49ea-4061-b1db-6c13c9628c44",
+      "comment": "",
+      "command": "type",
+      "target": "id=mat-input-3",
+      "targets": [
+        ["id=mat-input-3", "id"],
+        ["css=#mat-input-3", "css:finder"],
+        ["xpath=//input[@id='mat-input-3']", "xpath:attributes"],
+        ["xpath=//div[4]/mat-form-field/div/div/div[2]/input", "xpath:position"]
+      ],
+      "value": "1"
+    }, {
+      "id": "042971aa-889f-411f-8567-17ed35d3a15d",
+      "comment": "",
+      "command": "type",
+      "target": "id=mat-input-4",
+      "targets": [
+        ["id=mat-input-4", "id"],
+        ["css=#mat-input-4", "css:finder"],
+        ["xpath=//input[@id='mat-input-4']", "xpath:attributes"],
+        ["xpath=//div[5]/mat-form-field/div/div/div[2]/input", "xpath:position"]
+      ],
+      "value": "1"
+    }, {
+      "id": "9ab0ce94-7730-45cb-9c0e-9d36c2170593",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btnLogin",
+      "targets": [
+        ["css=.btnLogin", "css:finder"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Acessar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c4aa13e4-066a-4cfb-b6eb-3894736473e2",
+      "comment": "",
+      "command": "click",
+      "target": "css=#accordionModulos > .a2o-menu__item:nth-child(1) > .a2o-menu__link > .a2o-menu__titulo-icone",
+      "targets": [
+        ["css=#accordionModulos > .a2o-menu__item:nth-child(1) > .a2o-menu__link > .a2o-menu__titulo-icone", "css:finder"],
+        ["xpath=//ul[@id='accordionModulos']/li/a/div[2]", "xpath:idRelative"],
+        ["xpath=//a/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ee3cbd62-d0db-4986-8000-3cb8441bc00f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Requisição",
+      "targets": [
+        ["linkText=Requisição", "linkText"],
+        ["css=#ALM .a2o-menu__item:nth-child(10) > .a2o-menu__link", "css:finder"],
+        ["xpath=//div[@id='ALM']/ul/li[10]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#/cfaweb/alm/requisicao?key=78f661fd-3328-4557-a9ed-3dfc3c4ecddc')]", "xpath:href"],
+        ["xpath=//li[10]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Requisição')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c3a14b66-61d1-4cd1-9d8a-d139b85f2083",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.d-flex > app-a2o-botao:nth-child(1) > .mat-ripple",
+      "targets": [
+        ["css=.d-flex > app-a2o-botao:nth-child(1) > .mat-ripple", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//app-a2o-botao/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Incluir')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4bcccacd-1ab4-474e-a642-f978b8c9594f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.d-flex > app-a2o-botao:nth-child(1) > .mat-ripple",
+      "targets": [
+        ["css=.d-flex > app-a2o-botao:nth-child(1) > .mat-ripple", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//app-a2o-botao/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Incluir')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4450ae97-0e63-4d66-aea3-3121175f62ce",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.d-flex > app-a2o-botao:nth-child(1) > .mat-ripple",
+      "targets": [
+        ["css=.d-flex > app-a2o-botao:nth-child(1) > .mat-ripple", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//app-a2o-botao/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Incluir ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9c6a2bb8-2094-4db8-9c14-0414607984f1",
+      "comment": "",
+      "command": "click",
+      "target": "id=mat-input-11",
+      "targets": [
+        ["id=mat-input-11", "id"],
+        ["css=#mat-input-11", "css:finder"],
+        ["xpath=//input[@id='mat-input-11']", "xpath:attributes"],
+        ["xpath=//app-a2o-data/div/div/mat-form-field/div/div/div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "740e7f3c-5d11-458a-b18e-4835fa2ed95a",
+      "comment": "",
+      "command": "type",
+      "target": "id=mat-input-11",
+      "targets": [
+        ["id=mat-input-11", "id"],
+        ["css=#mat-input-11", "css:finder"],
+        ["xpath=//input[@id='mat-input-11']", "xpath:attributes"],
+        ["xpath=//app-a2o-data/div/div/mat-form-field/div/div/div[3]/input", "xpath:position"]
+      ],
+      "value": "03/11/2021"
+    }, {
+      "id": "c35a86a3-1019-4765-b1d7-2d7d6d74155e",
+      "comment": "",
+      "command": "click",
+      "target": "id=mat-input-13",
+      "targets": [
+        ["id=mat-input-13", "id"],
+        ["css=#mat-input-13", "css:finder"],
+        ["xpath=//input[@id='mat-input-13']", "xpath:attributes"],
+        ["xpath=//app-fkfield-pessoa/div/div/mat-form-field/div/div/div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "10a31d88-99f2-4409-9ce1-06846ecde3d0",
+      "comment": "",
+      "command": "type",
+      "target": "id=mat-input-13",
+      "targets": [
+        ["id=mat-input-13", "id"],
+        ["css=#mat-input-13", "css:finder"],
+        ["xpath=//input[@id='mat-input-13']", "xpath:attributes"],
+        ["xpath=//app-fkfield-pessoa/div/div/mat-form-field/div/div/div[3]/input", "xpath:position"]
+      ],
+      "value": "3"
+    }, {
+      "id": "973424ec-babb-4979-9d8b-7983f36cf30e",
+      "comment": "",
+      "command": "type",
+      "target": "id=mat-input-14",
+      "targets": [
+        ["id=mat-input-14", "id"],
+        ["css=#mat-input-14", "css:finder"],
+        ["xpath=//input[@id='mat-input-14']", "xpath:attributes"],
+        ["xpath=//div[4]/app-fkfield-pessoa/div/div/mat-form-field/div/div/div[3]/input", "xpath:position"]
+      ],
+      "value": "3"
+    }, {
+      "id": "cea0c1e2-8fa2-4b4c-b693-449c7e8a1dc2",
+      "comment": "",
+      "command": "type",
+      "target": "id=mat-input-15",
+      "targets": [
+        ["id=mat-input-15", "id"],
+        ["css=#mat-input-15", "css:finder"],
+        ["xpath=//input[@id='mat-input-15']", "xpath:attributes"],
+        ["xpath=//app-fkfield/div/div/mat-form-field/div/div/div[3]/input", "xpath:position"]
+      ],
+      "value": "ESTOQUE DE CIMENTO"
+    }, {
+      "id": "2d66438b-4f34-4767-91c9-af25ee181f4c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mat-option-text",
+      "targets": [
+        ["css=.mat-option-text", "css:finder"],
+        ["xpath=//mat-option[@id='mat-option-428']/span", "xpath:idRelative"],
+        ["xpath=//mat-option/span", "xpath:position"],
+        ["xpath=//span[contains(.,'ESTOQUE DE CIMENTO')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b12c5ccf-acca-4cfe-9176-def373dddbad",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=app-a2o-botao:nth-child(2) > .mat-ripple",
+      "targets": [
+        ["css=app-a2o-botao:nth-child(2) > .mat-ripple", "css:finder"],
+        ["xpath=(//button[@type='button'])[2]", "xpath:attributes"],
+        ["xpath=//app-a2o-botao[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Salvar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "29bac858-317c-4282-a019-4332f66303c5",
+      "comment": "",
+      "command": "click",
+      "target": "css=app-a2o-botao:nth-child(2) > .mat-ripple",
+      "targets": [
+        ["css=app-a2o-botao:nth-child(2) > .mat-ripple", "css:finder"],
+        ["xpath=(//button[@type='button'])[2]", "xpath:attributes"],
+        ["xpath=//app-a2o-botao[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Salvar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d007143a-eaf1-4725-a7ba-bb5639fac0e7",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=app-a2o-botao:nth-child(2) > .mat-ripple",
+      "targets": [
+        ["css=app-a2o-botao:nth-child(2) > .mat-ripple", "css:finder"],
+        ["xpath=(//button[@type='button'])[2]", "xpath:attributes"],
+        ["xpath=//app-a2o-botao[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Salvar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8abe977d-10c0-489b-a55b-51fc72944348",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.btn-primary",
+      "targets": [
+        ["css=.btn-primary", "css:finder"],
+        ["xpath=(//button[@type='button'])[14]", "xpath:attributes"],
+        ["xpath=//mat-tab-body[@id='mat-tab-content-0-0']/div/app-a2o-tabela-filha/div/app-a2o-tabela/div/p-table/div/div[2]/div/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "650c2b81-6844-4e5f-aeec-10461c5fa645",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-primary",
+      "targets": [
+        ["css=.btn-primary", "css:finder"],
+        ["xpath=(//button[@type='button'])[14]", "xpath:attributes"],
+        ["xpath=//mat-tab-body[@id='mat-tab-content-0-0']/div/app-a2o-tabela-filha/div/app-a2o-tabela/div/p-table/div/div[2]/div/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "58bcde37-ff3c-4e2e-a545-b0e75b7123aa",
+      "comment": "",
+      "command": "click",
+      "target": "id=mat-input-18",
+      "targets": [
+        ["id=mat-input-18", "id"],
+        ["css=#mat-input-18", "css:finder"],
+        ["xpath=//input[@id='mat-input-18']", "xpath:attributes"],
+        ["xpath=//mat-dialog-container[@id='mat-dialog-0']/app-requisicao-item/mat-card/mat-card-content/form/div[2]/div/app-fkfield/div/div/mat-form-field/div/div/div[3]/input", "xpath:idRelative"],
+        ["xpath=//app-requisicao-item/mat-card/mat-card-content/form/div[2]/div/app-fkfield/div/div/mat-form-field/div/div/div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6a420a44-2928-4f7a-b57d-afda07af7267",
+      "comment": "",
+      "command": "type",
+      "target": "id=mat-input-18",
+      "targets": [
+        ["id=mat-input-18", "id"],
+        ["css=#mat-input-18", "css:finder"],
+        ["xpath=//input[@id='mat-input-18']", "xpath:attributes"],
+        ["xpath=//mat-dialog-container[@id='mat-dialog-0']/app-requisicao-item/mat-card/mat-card-content/form/div[2]/div/app-fkfield/div/div/mat-form-field/div/div/div[3]/input", "xpath:idRelative"],
+        ["xpath=//app-requisicao-item/mat-card/mat-card-content/form/div[2]/div/app-fkfield/div/div/mat-form-field/div/div/div[3]/input", "xpath:position"]
+      ],
+      "value": "1646"
+    }, {
+      "id": "8084d44d-bbef-4a07-bae2-6eea5a02bab9",
+      "comment": "",
+      "command": "type",
+      "target": "id=mat-input-19",
+      "targets": [
+        ["id=mat-input-19", "id"],
+        ["css=#mat-input-19", "css:finder"],
+        ["xpath=//input[@id='mat-input-19']", "xpath:attributes"],
+        ["xpath=//mat-dialog-container[@id='mat-dialog-0']/app-requisicao-item/mat-card/mat-card-content/form/div[2]/div[2]/a2o-input/mat-form-field/div/div/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/a2o-input/mat-form-field/div/div/div[3]/input", "xpath:position"]
+      ],
+      "value": "200,0000"
+    }, {
+      "id": "79beb095-53e4-4d09-adf3-6cb523d97cbe",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mat-select-placeholder",
+      "targets": [
+        ["css=.mat-select-placeholder", "css:finder"],
+        ["xpath=//div[@id='mat-select-value-1']/span", "xpath:idRelative"],
+        ["xpath=//mat-select/div/div/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "279a3337-9cd7-4c70-9990-959dc082dc5d",
+      "comment": "",
+      "command": "click",
+      "target": "css=#mat-option-412 > .mat-option-text",
+      "targets": [
+        ["css=#mat-option-412 > .mat-option-text", "css:finder"],
+        ["xpath=//mat-option[@id='mat-option-412']/span", "xpath:idRelative"],
+        ["xpath=//mat-option/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2685a3a4-9483-4787-9188-5ae83ad7067f",
+      "comment": "",
+      "command": "click",
+      "target": "id=mat-input-22",
+      "targets": [
+        ["id=mat-input-22", "id"],
+        ["css=#mat-input-22", "css:finder"],
+        ["xpath=//input[@id='mat-input-22']", "xpath:attributes"],
+        ["xpath=//mat-dialog-container[@id='mat-dialog-0']/app-requisicao-item/mat-card/mat-card-content/form/div[2]/div[6]/app-fkfield/div/div/mat-form-field/div/div/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[6]/app-fkfield/div/div/mat-form-field/div/div/div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ee0b993e-496d-46c0-a4e0-aac1d89a93cd",
+      "comment": "",
+      "command": "type",
+      "target": "id=mat-input-22",
+      "targets": [
+        ["id=mat-input-22", "id"],
+        ["css=#mat-input-22", "css:finder"],
+        ["xpath=//input[@id='mat-input-22']", "xpath:attributes"],
+        ["xpath=//mat-dialog-container[@id='mat-dialog-0']/app-requisicao-item/mat-card/mat-card-content/form/div[2]/div[6]/app-fkfield/div/div/mat-form-field/div/div/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[6]/app-fkfield/div/div/mat-form-field/div/div/div[3]/input", "xpath:position"]
+      ],
+      "value": "nota"
+    }, {
+      "id": "8c173d36-30df-4bb7-b8dd-f9360a64766e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mat-option-text",
+      "targets": [
+        ["css=.mat-option-text", "css:finder"],
+        ["xpath=//mat-option[@id='mat-option-414']/span", "xpath:idRelative"],
+        ["xpath=//mat-option/span", "xpath:position"],
+        ["xpath=//span[contains(.,'1 - Nota Fiscal de Minuta')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "36d7e99d-bc5a-4fcf-8c5f-df8fdace6bcb",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.ng-star-inserted:nth-child(1) .d-flex:nth-child(1) > app-a2o-botao:nth-child(2) > .mat-ripple",
+      "targets": [
+        ["css=.ng-star-inserted:nth-child(1) .d-flex:nth-child(1) > app-a2o-botao:nth-child(2) > .mat-ripple", "css:finder"],
+        ["xpath=(//button[@type='button'])[19]", "xpath:attributes"],
+        ["xpath=//mat-dialog-container[@id='mat-dialog-0']/app-requisicao-item/mat-card/mat-card-content/app-a2o-botoes/div/div/app-a2o-botao[2]/button", "xpath:idRelative"],
+        ["xpath=//app-requisicao-item/mat-card/mat-card-content/app-a2o-botoes/div/div/app-a2o-botao[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8af78c2a-2bc0-4652-a195-03eed72aeb60",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-star-inserted:nth-child(1) .d-flex:nth-child(1) > app-a2o-botao:nth-child(2) > .mat-ripple",
+      "targets": [
+        ["css=.ng-star-inserted:nth-child(1) .d-flex:nth-child(1) > app-a2o-botao:nth-child(2) > .mat-ripple", "css:finder"],
+        ["xpath=(//button[@type='button'])[19]", "xpath:attributes"],
+        ["xpath=//mat-dialog-container[@id='mat-dialog-0']/app-requisicao-item/mat-card/mat-card-content/app-a2o-botoes/div/div/app-a2o-botao[2]/button", "xpath:idRelative"],
+        ["xpath=//app-requisicao-item/mat-card/mat-card-content/app-a2o-botoes/div/div/app-a2o-botao[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "536e5780-2113-4cc2-9a16-47bdb5215f67",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.ng-star-inserted:nth-child(1) .d-flex:nth-child(1) > app-a2o-botao:nth-child(2) > .mat-ripple",
+      "targets": [
+        ["css=.ng-star-inserted:nth-child(1) .d-flex:nth-child(1) > app-a2o-botao:nth-child(2) > .mat-ripple", "css:finder"],
+        ["xpath=(//button[@type='button'])[19]", "xpath:attributes"],
+        ["xpath=//mat-dialog-container[@id='mat-dialog-0']/app-requisicao-item/mat-card/mat-card-content/app-a2o-botoes/div/div/app-a2o-botao[2]/button", "xpath:idRelative"],
+        ["xpath=//app-requisicao-item/mat-card/mat-card-content/app-a2o-botoes/div/div/app-a2o-botao[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a5fe7711-b33f-409f-87ca-3830bb29bd24",
+      "comment": "",
+      "command": "click",
+      "target": "id=mat-input-22",
+      "targets": [
+        ["id=mat-input-22", "id"],
+        ["css=#mat-input-22", "css:finder"],
+        ["xpath=//input[@id='mat-input-22']", "xpath:attributes"],
+        ["xpath=//mat-dialog-container[@id='mat-dialog-0']/app-requisicao-item/mat-card/mat-card-content/form/div[2]/div[6]/app-fkfield/div/div/mat-form-field/div/div/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[6]/app-fkfield/div/div/mat-form-field/div/div/div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "51a30152-1d01-4220-9144-01dc75f0e16d",
+      "comment": "",
+      "command": "pause",
+      "target": "5000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5428eed1-fa45-4b4c-93b4-adce7cf6344d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fa-times",
+      "targets": [
+        ["css=.fa-times", "css:finder"],
+        ["xpath=//mat-dialog-container[@id='mat-dialog-0']/app-requisicao-item/mat-card/mat-card-header/div[2]/a[4]/i", "xpath:idRelative"],
+        ["xpath=//a[4]/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b77f4895-a176-4d3e-84d7-cc0daa59670c",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.fa-cubes",
+      "targets": [
+        ["css=.fa-cubes", "css:finder"],
+        ["xpath=//app-a2o-botao-opcoes/app-a2o-botao/button/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "03917d55-b0ef-4300-9f99-68d1ba9a9d97",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fa-cubes",
+      "targets": [
+        ["css=.fa-cubes", "css:finder"],
+        ["xpath=//app-a2o-botao-opcoes/app-a2o-botao/button/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "223f2f90-21bb-4463-9419-abef8974f4e4",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.fa-cubes",
+      "targets": [
+        ["css=.fa-cubes", "css:finder"],
+        ["xpath=//app-a2o-botao-opcoes/app-a2o-botao/button/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e3b08c0f-1a66-4a8a-8924-a6d1c2b123d1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-tns-c111-19:nth-child(1) > .mat-menu-item",
+      "targets": [
+        ["css=.ng-tns-c111-19:nth-child(1) > .mat-menu-item", "css:finder"],
+        ["xpath=//div[@id='mat-menu-panel-1']/div/app-a2o-botao-item/button", "xpath:idRelative"],
+        ["xpath=//app-a2o-botao-item/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Baixar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8ce90972-e81b-426f-8091-a77dc5c9e08a",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.mat-menu-trigger > .mat-ripple",
+      "targets": [
+        ["css=.mat-menu-trigger > .mat-ripple", "css:finder"],
+        ["xpath=(//button[@type='button'])[6]", "xpath:attributes"],
+        ["xpath=//app-a2o-botao-opcoes/app-a2o-botao/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Opções')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "db742923-98a2-4d00-919d-29f4ef23b2a2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mat-menu-trigger > .mat-ripple",
+      "targets": [
+        ["css=.mat-menu-trigger > .mat-ripple", "css:finder"],
+        ["xpath=(//button[@type='button'])[6]", "xpath:attributes"],
+        ["xpath=//app-a2o-botao-opcoes/app-a2o-botao/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Opções')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4e11aa46-78c3-40c7-9baa-18925209f386",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.mat-menu-trigger > .mat-ripple",
+      "targets": [
+        ["css=.mat-menu-trigger > .mat-ripple", "css:finder"],
+        ["xpath=(//button[@type='button'])[6]", "xpath:attributes"],
+        ["xpath=//app-a2o-botao-opcoes/app-a2o-botao/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Opções')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "597d036e-7755-4dd3-9d13-f341ce57bf5e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-tns-c111-19:nth-child(2) > .mat-menu-item",
+      "targets": [
+        ["css=.ng-tns-c111-19:nth-child(2) > .mat-menu-item", "css:finder"],
+        ["xpath=//div[@id='mat-menu-panel-1']/div/app-a2o-botao-item[2]/button", "xpath:idRelative"],
+        ["xpath=//app-a2o-botao-item[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Cancelar Baixa')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1d6a6cd2-586a-4627-b463-a42351754b77",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=app-a2o-botao:nth-child(4) > .mat-ripple",
+      "targets": [
+        ["css=app-a2o-botao:nth-child(4) > .mat-ripple", "css:finder"],
+        ["xpath=(//button[@type='button'])[4]", "xpath:attributes"],
+        ["xpath=//app-a2o-botao[4]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Excluir')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "37219a7f-571f-436f-adda-dbfd7deb1d8c",
+      "comment": "",
+      "command": "click",
+      "target": "css=app-a2o-botao:nth-child(4) > .mat-ripple",
+      "targets": [
+        ["css=app-a2o-botao:nth-child(4) > .mat-ripple", "css:finder"],
+        ["xpath=(//button[@type='button'])[4]", "xpath:attributes"],
+        ["xpath=//app-a2o-botao[4]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Excluir')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "520b9552-18c5-43fe-a434-e456fc370b58",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=app-a2o-botao:nth-child(4) > .mat-ripple",
+      "targets": [
+        ["css=app-a2o-botao:nth-child(4) > .mat-ripple", "css:finder"],
+        ["xpath=(//button[@type='button'])[7]", "xpath:attributes"],
+        ["xpath=//app-a2o-botao[4]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Excluir')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "79e471ee-88dd-456d-be3d-dffb783b07a3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fa-check",
+      "targets": [
+        ["css=.fa-check", "css:finder"],
+        ["xpath=//app-a2o-botao[2]/button/i", "xpath:position"]
+      ],
+      "value": ""
+    }]
   }],
   "suites": [{
     "id": "78620614-102e-44f4-8e3c-447445aa8e54",
