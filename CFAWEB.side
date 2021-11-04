@@ -2546,7 +2546,7 @@
     }]
   }, {
     "id": "9ec20778-fe2f-4a61-b7ec-c45b73af6efa",
-    "name": "CT007-ORDEM-COMPRA",
+    "name": "ALM007_ORDEMCOMPRA",
     "commands": [{
       "id": "9c7bbfbc-fd44-4441-8d0c-e305e64ee294",
       "comment": "",
