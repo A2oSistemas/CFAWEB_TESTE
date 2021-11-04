@@ -5340,7 +5340,7 @@
     }]
   }, {
     "id": "26bfc165-50af-4343-9406-3d1b4bf30607",
-    "name": "alm_rel_gerenciadorestoque",
+    "name": "alm_gerenciadorestoque",
     "commands": [{
       "id": "6974cfaf-ff0d-4fc4-acc9-ae4efc716a43",
       "comment": "",
@@ -5509,11 +5509,11 @@
     }]
   }, {
     "id": "75e517ff-43bc-4c30-b57b-0a176203eecc",
-    "name": "alm_rel_gerenciadorpedidocompra",
+    "name": "alm_gerenciadorpedidocompra",
     "commands": []
   }, {
     "id": "a599c7be-e68c-434d-a15f-14c9ea59a176",
-    "name": "alm_rel_gerenciadorrequisicao",
+    "name": "alm_gerenciadorrequisicao",
     "commands": [{
       "id": "eea43dce-3c90-4488-b9e0-2711527d5b58",
       "comment": "",
