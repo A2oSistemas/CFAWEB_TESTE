@@ -5,7 +5,7 @@
   "url": "http://192.168.0.30:3035/#/login",
   "tests": [{
     "id": "4c158cc0-fc14-4fe1-a0eb-ba1b3cf14082",
-    "name": "CT002-COTACAO-COMPRA",
+    "name": "alm014_cotacaocompra",
     "commands": [{
       "id": "5d810db5-075f-4447-827c-144d19c6339b",
       "comment": "",
@@ -512,7 +512,7 @@
     }]
   }, {
     "id": "c55a4aa6-2e4b-4de8-baa8-0713d18b9eb6",
-    "name": "CT003-FATURA-COMPRA",
+    "name": "alm008_fatura",
     "commands": [{
       "id": "294059e8-9286-49e8-97be-6d830c8bc875",
       "comment": "",
@@ -1479,7 +1479,7 @@
     }]
   }, {
     "id": "2eaa4ebe-b943-4c9f-ba65-1076f4e1b0c8",
-    "name": "CT004-FECHAMENTO-ALMOXARIFADO",
+    "name": "alm011_fechamentoalmoxarifado",
     "commands": [{
       "id": "b82bbec7-0dff-4980-9c5b-5ca850711b93",
       "comment": "",
@@ -1695,7 +1695,7 @@
     }]
   }, {
     "id": "3d4ff369-3caa-4427-9375-0efedba3f4c2",
-    "name": "CT005-INVENTARIO",
+    "name": "alm013_inventario",
     "commands": [{
       "id": "3dec5740-2ec8-4527-a2de-c79652fecc3c",
       "comment": "",
@@ -2299,7 +2299,7 @@
     }]
   }, {
     "id": "aa669791-43c3-4db1-86ff-385fb652fa2a",
-    "name": "CT006-LOCALIZACAO-ESTOQUE",
+    "name": "ger004_localizacao",
     "commands": [{
       "id": "4edd30e9-977b-4468-b2bd-a2b248da7301",
       "comment": "",
@@ -2546,7 +2546,7 @@
     }]
   }, {
     "id": "9ec20778-fe2f-4a61-b7ec-c45b73af6efa",
-    "name": "ALM007_ORDEMCOMPRA",
+    "name": "alm007_ordemcompra",
     "commands": [{
       "id": "9c7bbfbc-fd44-4441-8d0c-e305e64ee294",
       "comment": "",
@@ -3434,7 +3434,7 @@
     }]
   }, {
     "id": "79b31735-07c9-46d2-8c01-26ab87928e67",
-    "name": "CT008-PEDIDO-COMPRA",
+    "name": "alm015_pedidocompra",
     "commands": [{
       "id": "c4334252-5cf2-4224-95ae-1aaed05836ea",
       "comment": "",
@@ -4061,7 +4061,7 @@
     }]
   }, {
     "id": "d735d6ee-a86b-41f5-bbd1-240b4f3fbf2a",
-    "name": "CT009-REQUISICAO",
+    "name": "alm009_requisicao",
     "commands": [{
       "id": "ad034aae-5c60-4dc3-bbc0-5906d99628fc",
       "comment": "",
@@ -4669,7 +4669,7 @@
     }]
   }, {
     "id": "e90cf2a8-0f17-45c7-9d89-ef6a5c7bd606",
-    "name": "CT010-UNIDADE-ESTOCADORA",
+    "name": "alm001_undestocadora",
     "commands": [{
       "id": "ca6636da-6315-4a7a-81bc-a3439e6f3071",
       "comment": "",
@@ -5131,7 +5131,7 @@
     }]
   }, {
     "id": "7586a046-6f63-4058-818f-1044fec23f55",
-    "name": "CT011-CARDEX",
+    "name": "alm010_cardex",
     "commands": [{
       "id": "075db146-4214-46db-becf-83d600869e9c",
       "comment": "",
@@ -5340,7 +5340,7 @@
     }]
   }, {
     "id": "26bfc165-50af-4343-9406-3d1b4bf30607",
-    "name": "CT012-GERENCIADOR-ESTOQUE",
+    "name": "alm_rel_gerenciadorestoque",
     "commands": [{
       "id": "6974cfaf-ff0d-4fc4-acc9-ae4efc716a43",
       "comment": "",
@@ -5509,11 +5509,11 @@
     }]
   }, {
     "id": "75e517ff-43bc-4c30-b57b-0a176203eecc",
-    "name": "CT013-GERENCIADOR-PEDIDOS-COMPRA",
+    "name": "alm_rel_gerenciadorpedidocompra",
     "commands": []
   }, {
     "id": "a599c7be-e68c-434d-a15f-14c9ea59a176",
-    "name": "CT014-GERENCIADOR-REQUISICAO",
+    "name": "alm_rel_gerenciadorrequisicao",
     "commands": [{
       "id": "eea43dce-3c90-4488-b9e0-2711527d5b58",
       "comment": "",
@@ -5673,6 +5673,170 @@
       ],
       "value": ""
     }]
+  }, {
+    "id": "28871370-53b1-4d62-91f1-ac9005dfd224",
+    "name": "ger001_classificacao",
+    "commands": []
+  }, {
+    "id": "75d75cab-cabc-4821-9edd-ac68588255ee",
+    "name": "ger002_pais",
+    "commands": []
+  }, {
+    "id": "089b37a4-513c-4fc7-adfe-47ae5f7300ce",
+    "name": "ger003_cidade",
+    "commands": []
+  }, {
+    "id": "0eb49d62-4178-44fb-a0c0-cab16a8271f8",
+    "name": "ger005_planoconta",
+    "commands": []
+  }, {
+    "id": "7b8cf318-fe93-446e-b539-abc457ae6f2f",
+    "name": "ger006_material",
+    "commands": []
+  }, {
+    "id": "cfe9c0ab-4b29-42cc-8004-8cf07f8f4d79",
+    "name": "ger007_pessoa",
+    "commands": []
+  }, {
+    "id": "070aebb0-6c41-4bad-92fa-76b86db51648",
+    "name": "ger008_tipofrota",
+    "commands": []
+  }, {
+    "id": "11c3121a-fefb-4349-8abe-ce17984c0c75",
+    "name": "ger009_mascara",
+    "commands": []
+  }, {
+    "id": "f79f453e-56b2-41d3-b972-48b676f1325d",
+    "name": "ger010_layoutveiculo",
+    "commands": []
+  }, {
+    "id": "00ae1d2b-eae4-4b58-9cd9-d8d453354063",
+    "name": "ger011_tiporastreador",
+    "commands": []
+  }, {
+    "id": "84c33ea7-5a48-427a-9284-abd72c4ee051",
+    "name": "ger012_refveiculo",
+    "commands": []
+  }, {
+    "id": "ede2cb34-557c-452d-8ef7-d79796c1110a",
+    "name": "ger013_veiculo",
+    "commands": []
+  }, {
+    "id": "630541b5-e31b-4a19-baa9-212db0789712",
+    "name": "ger014_cfop",
+    "commands": []
+  }, {
+    "id": "0ad79673-3427-4310-9072-edc7c854c116",
+    "name": "ger015_centrocusto",
+    "commands": []
+  }, {
+    "id": "16895540-bb6a-40ff-b498-20538be34ef8",
+    "name": "ger016_marca",
+    "commands": []
+  }, {
+    "id": "23bf048e-a592-4db6-b376-eb5072f918e9",
+    "name": "ger017_grupomaterial",
+    "commands": []
+  }, {
+    "id": "17c66c95-3238-4da2-a38a-0b3bbd4faaa2",
+    "name": "ger018_condicaopgto",
+    "commands": []
+  }, {
+    "id": "f1bff66e-fff5-444f-8771-f3121a324126",
+    "name": "ger019_cargo",
+    "commands": []
+  }, {
+    "id": "bcf8aa74-c417-466e-864a-84b258ba7d29",
+    "name": "ger020_unidade",
+    "commands": []
+  }, {
+    "id": "91e00481-9102-4115-b685-c5d730128819",
+    "name": "ger021_ncm",
+    "commands": []
+  }, {
+    "id": "98a0b320-a957-4427-bd68-98b214622c5f",
+    "name": "ger022_cor",
+    "commands": []
+  }, {
+    "id": "fa312889-4d91-45f9-af9a-303bebb23318",
+    "name": "ger023_tabelavcto",
+    "commands": []
+  }, {
+    "id": "6aef11b2-1cfb-49af-a5f3-e93a115ea58d",
+    "name": "ger024_caracteristicaisimp",
+    "commands": []
+  }, {
+    "id": "0d5d5992-ee7a-49bc-a427-10b262d5fc6c",
+    "name": "ger025_grupopessoa",
+    "commands": []
+  }, {
+    "id": "f6873501-76a1-44eb-aa02-f57b086b18aa",
+    "name": "ger026_tipoestabelecimento",
+    "commands": []
+  }, {
+    "id": "3742a427-f69c-4837-8eb5-4fdc2a69b9c7",
+    "name": "ger027_distancia",
+    "commands": []
+  }, {
+    "id": "70858c63-107f-4ec1-9ba3-e52043e33b9c",
+    "name": "ger028_caractfisicoquimica",
+    "commands": []
+  }, {
+    "id": "ba71334f-7622-43dc-a1d3-a53e0bab15d5",
+    "name": "ger029_tipooperacao",
+    "commands": []
+  }, {
+    "id": "2300d0dd-35e1-497b-a3c8-53bd5393ebc2",
+    "name": "ger030_segmento",
+    "commands": []
+  }, {
+    "id": "7a262195-2b81-4d1a-b588-3c4169ea5ad9",
+    "name": "ger031_relacionamentocfop",
+    "commands": []
+  }, {
+    "id": "1be08c5a-89aa-4a25-9de0-2f6c9b993cf5",
+    "name": "ger032_feriado",
+    "commands": []
+  }, {
+    "id": "af4744fe-80e3-42af-8299-91a70f93a012",
+    "name": "ger033_obspadrao",
+    "commands": []
+  }, {
+    "id": "5bba78d3-4119-4c14-94a6-98601d954b88",
+    "name": "ger034_averbacaoatm",
+    "commands": []
+  }, {
+    "id": "30e17a90-f857-4668-a5d4-6ab05a664de3",
+    "name": "ger035_autxml",
+    "commands": []
+  }, {
+    "id": "1f4e2815-9ff8-4ab1-886b-cbb0dee22aad",
+    "name": "ger036_atividadeprincipal",
+    "commands": []
+  }, {
+    "id": "76c6752f-12d9-41fe-ba4a-9cc40f9440ed",
+    "name": "ger037_naturezajuridica",
+    "commands": []
+  }, {
+    "id": "ac721280-c5c1-48af-b29e-860486dde7cf",
+    "name": "ger038_rctrc",
+    "commands": []
+  }, {
+    "id": "11827be0-5886-477c-9cac-c4ca6a2f5a68",
+    "name": "ger039_roda",
+    "commands": []
+  }, {
+    "id": "6dd84405-0630-4b6a-8c1d-fc529eb70d72",
+    "name": "ger040_vendedorcliente",
+    "commands": []
+  }, {
+    "id": "e8a0122d-afec-4a62-bae8-d5eae58cd598",
+    "name": "ger041_codigoprodutoanp",
+    "commands": []
+  }, {
+    "id": "8e04f521-4aa3-4c39-806b-84cfa1900b1e",
+    "name": "ger042_grupoveiculo",
+    "commands": []
   }],
   "suites": [{
     "id": "78620614-102e-44f4-8e3c-447445aa8e54",
