@@ -24937,6 +24937,614 @@
       ],
       "value": ""
     }]
+  }, {
+    "id": "a1078490-1b11-4007-a0c1-4f0f3b1dd418",
+    "name": "fin_conciliacaobancariadecontas",
+    "commands": [{
+      "id": "097da433-b754-4e35-bea4-cfde74eecfbd",
+      "comment": "",
+      "command": "open",
+      "target": "http://192.168.0.30:3035/#/login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "351a2829-1c42-4411-b140-742badc4a367",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1920x1048",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bbaee5e2-7068-4359-ac75-8114aab9ff94",
+      "comment": "",
+      "command": "type",
+      "target": "id=mat-input-0",
+      "targets": [
+        ["id=mat-input-0", "id"],
+        ["css=#mat-input-0", "css:finder"],
+        ["xpath=//input[@id='mat-input-0']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "saj"
+    }, {
+      "id": "b5050121-d7a8-472e-ba0f-b8d334c3beea",
+      "comment": "",
+      "command": "type",
+      "target": "id=mat-input-1",
+      "targets": [
+        ["id=mat-input-1", "id"],
+        ["css=#mat-input-1", "css:finder"],
+        ["xpath=//input[@id='mat-input-1']", "xpath:attributes"],
+        ["xpath=//div[2]/mat-form-field/div/div/div[2]/input", "xpath:position"]
+      ],
+      "value": "1"
+    }, {
+      "id": "ec288c27-0ce1-42b3-880e-eaac8bcda53b",
+      "comment": "",
+      "command": "type",
+      "target": "id=mat-input-2",
+      "targets": [
+        ["id=mat-input-2", "id"],
+        ["css=#mat-input-2", "css:finder"],
+        ["xpath=//input[@id='mat-input-2']", "xpath:attributes"],
+        ["xpath=//div[3]/mat-form-field/div/div/div[2]/input", "xpath:position"]
+      ],
+      "value": "master"
+    }, {
+      "id": "16ca5b2b-441b-4b6a-97d8-459256408f21",
+      "comment": "",
+      "command": "type",
+      "target": "id=mat-input-3",
+      "targets": [
+        ["id=mat-input-3", "id"],
+        ["css=#mat-input-3", "css:finder"],
+        ["xpath=//input[@id='mat-input-3']", "xpath:attributes"],
+        ["xpath=//div[4]/mat-form-field/div/div/div[2]/input", "xpath:position"]
+      ],
+      "value": "1"
+    }, {
+      "id": "2eb50398-b213-4d74-9ac9-1f1b51c0203c",
+      "comment": "",
+      "command": "type",
+      "target": "id=mat-input-4",
+      "targets": [
+        ["id=mat-input-4", "id"],
+        ["css=#mat-input-4", "css:finder"],
+        ["xpath=//input[@id='mat-input-4']", "xpath:attributes"],
+        ["xpath=//div[5]/mat-form-field/div/div/div[2]/input", "xpath:position"]
+      ],
+      "value": "1"
+    }, {
+      "id": "248bd7d3-aeda-426e-b335-5baef3fb5c5d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btnLogin",
+      "targets": [
+        ["css=.btnLogin", "css:finder"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Acessar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "311591aa-a5b2-4f45-bffc-5e752d585bb6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cdk-overlay-backdrop",
+      "targets": [
+        ["css=.cdk-overlay-backdrop", "css:finder"],
+        ["xpath=//body/div[3]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2836bf9d-47c2-4847-8650-33e056f8e139",
+      "comment": "",
+      "command": "click",
+      "target": "css=#accordionModulos > .a2o-menu__item:nth-child(5) > .a2o-menu__link .a2o-menu__titulo",
+      "targets": [
+        ["css=#accordionModulos > .a2o-menu__item:nth-child(5) > .a2o-menu__link .a2o-menu__titulo", "css:finder"],
+        ["xpath=//ul[@id='accordionModulos']/li[5]/a/div[2]/span", "xpath:idRelative"],
+        ["xpath=//nav/ul/li[5]/a/div[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Financeiro')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cbd7d475-3f82-40ee-a2ad-cd9c9b6751ef",
+      "comment": "",
+      "command": "click",
+      "target": "css=#FIN > #accordionSubModulos > .a2o-menu__item:nth-child(3) .a2o-menu__titulo-icone",
+      "targets": [
+        ["css=#FIN > #accordionSubModulos > .a2o-menu__item:nth-child(3) .a2o-menu__titulo-icone", "css:finder"],
+        ["xpath=(//ul[@id='accordionSubModulos']/li[3]/a/div[2])[2]", "xpath:idRelative"],
+        ["xpath=//li[5]/div/ul[2]/li[3]/a/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "38ac8d34-8195-40be-8770-64fc594d6565",
+      "comment": "",
+      "command": "click",
+      "target": "css=#subfin22 .a2o-menu__item:nth-child(3) .a2o-menu__titulo",
+      "targets": [
+        ["css=#subfin22 .a2o-menu__item:nth-child(3) .a2o-menu__titulo", "css:finder"],
+        ["xpath=//div[@id='subfin22']/ul/li[3]/a/span", "xpath:idRelative"],
+        ["xpath=//li[5]/div/ul[2]/li[3]/div/ul/li[3]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Conciliação Bancária de Contas')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "55b8dfbc-e78a-4d9f-a25a-fdeb9b0ed08c",
+      "comment": "",
+      "command": "click",
+      "target": "id=mat-input-16",
+      "targets": [
+        ["id=mat-input-16", "id"],
+        ["css=#mat-input-16", "css:finder"],
+        ["xpath=//input[@id='mat-input-16']", "xpath:attributes"],
+        ["xpath=//div/mat-form-field/div/div/div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3bfcba0e-0a93-4730-acf3-54c5b196d7a1",
+      "comment": "",
+      "command": "type",
+      "target": "id=mat-input-16",
+      "targets": [
+        ["id=mat-input-16", "id"],
+        ["css=#mat-input-16", "css:finder"],
+        ["xpath=//input[@id='mat-input-16']", "xpath:attributes"],
+        ["xpath=//div/mat-form-field/div/div/div[3]/input", "xpath:position"]
+      ],
+      "value": "1"
+    }, {
+      "id": "2dc149b9-49ee-455a-bddf-7557c3ec59a5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-tns-c134-16:nth-child(2)",
+      "targets": [
+        ["css=.ng-tns-c134-16:nth-child(2)", "css:finder"],
+        ["xpath=//p-multiselect/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ba0b78a6-678c-454b-b93b-45c6db8d0186",
+      "comment": "",
+      "command": "click",
+      "target": "css=.p-multiselect-header",
+      "targets": [
+        ["css=.p-multiselect-header", "css:finder"],
+        ["xpath=//div[4]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e1ba504c-e2c6-4d2b-bdb2-8b72e05613dc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.p-checkbox-box:nth-child(2)",
+      "targets": [
+        ["css=.p-checkbox-box:nth-child(2)", "css:finder"],
+        ["xpath=//div[4]/div/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "243ec81f-b5f1-4706-8886-352c8b717ad6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.row > .justify-content-center",
+      "targets": [
+        ["css=.row > .justify-content-center", "css:finder"],
+        ["xpath=//app-a2o-gerenciador/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b543d414-f468-4e8a-b1cc-3b86a2403481",
+      "comment": "",
+      "command": "click",
+      "target": "id=mat-input-17",
+      "targets": [
+        ["id=mat-input-17", "id"],
+        ["css=#mat-input-17", "css:finder"],
+        ["xpath=//input[@id='mat-input-17']", "xpath:attributes"],
+        ["xpath=//app-a2o-data/div/div/mat-form-field/div/div/div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e203db09-0a2e-4b98-a872-8cd958877834",
+      "comment": "",
+      "command": "type",
+      "target": "id=mat-input-17",
+      "targets": [
+        ["id=mat-input-17", "id"],
+        ["css=#mat-input-17", "css:finder"],
+        ["xpath=//input[@id='mat-input-17']", "xpath:attributes"],
+        ["xpath=//app-a2o-data/div/div/mat-form-field/div/div/div[3]/input", "xpath:position"]
+      ],
+      "value": "10/11/2020"
+    }, {
+      "id": "3728ec79-0831-48b1-9198-0158a645b620",
+      "comment": "",
+      "command": "type",
+      "target": "id=mat-input-18",
+      "targets": [
+        ["id=mat-input-18", "id"],
+        ["css=#mat-input-18", "css:finder"],
+        ["xpath=//input[@id='mat-input-18']", "xpath:attributes"],
+        ["xpath=//app-a2o-data[2]/div/div/mat-form-field/div/div/div[3]/input", "xpath:position"]
+      ],
+      "value": "10/03/2021"
+    }, {
+      "id": "7d43b0c2-656b-4380-9498-6bb31bab48f4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-tns-c134-17:nth-child(2)",
+      "targets": [
+        ["css=.ng-tns-c134-17:nth-child(2)", "css:finder"],
+        ["xpath=//app-a2o-opcoes[2]/span/p-multiselect/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1893d063-5f99-4b76-953e-acad6f26e359",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-tns-c134-17:nth-child(1) > .p-multiselect-item .p-checkbox-box",
+      "targets": [
+        ["css=.ng-tns-c134-17:nth-child(1) > .p-multiselect-item .p-checkbox-box", "css:finder"],
+        ["xpath=//li/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f1cc64b2-f7ec-4c37-9f8f-91b1625bac66",
+      "comment": "",
+      "command": "click",
+      "target": "css=.row > .justify-content-center",
+      "targets": [
+        ["css=.row > .justify-content-center", "css:finder"],
+        ["xpath=//app-a2o-gerenciador/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "baa5d273-9b31-4651-a9b7-6c27810147b7",
+      "comment": "",
+      "command": "click",
+      "target": "id=mat-input-22",
+      "targets": [
+        ["id=mat-input-22", "id"],
+        ["css=#mat-input-22", "css:finder"],
+        ["xpath=//input[@id='mat-input-22']", "xpath:attributes"],
+        ["xpath=//app-a2o-filtro-intervalo[3]/div/div/div/app-a2o-data/div/div/mat-form-field/div/div/div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "55a6974a-2028-4655-8833-7c1564539740",
+      "comment": "",
+      "command": "type",
+      "target": "id=mat-input-22",
+      "targets": [
+        ["id=mat-input-22", "id"],
+        ["css=#mat-input-22", "css:finder"],
+        ["xpath=//input[@id='mat-input-22']", "xpath:attributes"],
+        ["xpath=//app-a2o-filtro-intervalo[3]/div/div/div/app-a2o-data/div/div/mat-form-field/div/div/div[3]/input", "xpath:position"]
+      ],
+      "value": "29/10/2020"
+    }, {
+      "id": "db2b1702-9565-4e2e-8ca1-2f8c161d414e",
+      "comment": "",
+      "command": "type",
+      "target": "id=mat-input-23",
+      "targets": [
+        ["id=mat-input-23", "id"],
+        ["css=#mat-input-23", "css:finder"],
+        ["xpath=//input[@id='mat-input-23']", "xpath:attributes"],
+        ["xpath=//app-a2o-filtro-intervalo[3]/div/div/div/app-a2o-data[2]/div/div/mat-form-field/div/div/div[3]/input", "xpath:position"]
+      ],
+      "value": "29/10/2020"
+    }, {
+      "id": "176c3085-1d17-4aaf-83dd-30533f0c5438",
+      "comment": "",
+      "command": "click",
+      "target": "id=mat-input-24",
+      "targets": [
+        ["id=mat-input-24", "id"],
+        ["css=#mat-input-24", "css:finder"],
+        ["xpath=//input[@id='mat-input-24']", "xpath:attributes"],
+        ["xpath=//app-a2o-filtro-texto[2]/div/div/div/div/app-a2o-texto/mat-form-field/div/div/div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d14d2316-dda0-43ec-a5dc-9ec927acc985",
+      "comment": "",
+      "command": "type",
+      "target": "id=mat-input-24",
+      "targets": [
+        ["id=mat-input-24", "id"],
+        ["css=#mat-input-24", "css:finder"],
+        ["xpath=//input[@id='mat-input-24']", "xpath:attributes"],
+        ["xpath=//app-a2o-filtro-texto[2]/div/div/div/div/app-a2o-texto/mat-form-field/div/div/div[3]/input", "xpath:position"]
+      ],
+      "value": "SEGURO FROTA P/ DNU 1473"
+    }, {
+      "id": "a5346097-f7e1-4ed5-a02b-7c4afcf8b4ef",
+      "comment": "",
+      "command": "click",
+      "target": "id=mat-input-25",
+      "targets": [
+        ["id=mat-input-25", "id"],
+        ["css=#mat-input-25", "css:finder"],
+        ["xpath=//input[@id='mat-input-25']", "xpath:attributes"],
+        ["xpath=//app-a2o-filtro-intervalo[4]/div/div/div/app-a2o-data/div/div/mat-form-field/div/div/div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7ad897ec-0e78-4aea-b295-4dbfeed69605",
+      "comment": "",
+      "command": "type",
+      "target": "id=mat-input-25",
+      "targets": [
+        ["id=mat-input-25", "id"],
+        ["css=#mat-input-25", "css:finder"],
+        ["xpath=//input[@id='mat-input-25']", "xpath:attributes"],
+        ["xpath=//app-a2o-filtro-intervalo[4]/div/div/div/app-a2o-data/div/div/mat-form-field/div/div/div[3]/input", "xpath:position"]
+      ],
+      "value": "29/10/2020"
+    }, {
+      "id": "75c98047-71d2-4451-b489-20172e791f9e",
+      "comment": "",
+      "command": "type",
+      "target": "id=mat-input-26",
+      "targets": [
+        ["id=mat-input-26", "id"],
+        ["css=#mat-input-26", "css:finder"],
+        ["xpath=//input[@id='mat-input-26']", "xpath:attributes"],
+        ["xpath=//app-a2o-filtro-intervalo[4]/div/div/div/app-a2o-data[2]/div/div/mat-form-field/div/div/div[3]/input", "xpath:position"]
+      ],
+      "value": "29/10/2020"
+    }, {
+      "id": "1a0d49d6-1340-4543-a909-168baa979d84",
+      "comment": "",
+      "command": "click",
+      "target": "id=mat-input-33",
+      "targets": [
+        ["id=mat-input-33", "id"],
+        ["css=#mat-input-33", "css:finder"],
+        ["xpath=//input[@id='mat-input-33']", "xpath:attributes"],
+        ["xpath=//app-a2o-filtro-intervalo[8]/div/div/div/a2o-input/mat-form-field/div/div/div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "faf466ed-2a88-45ba-b1a4-ab257c6e4b51",
+      "comment": "",
+      "command": "type",
+      "target": "id=mat-input-33",
+      "targets": [
+        ["id=mat-input-33", "id"],
+        ["css=#mat-input-33", "css:finder"],
+        ["xpath=//input[@id='mat-input-33']", "xpath:attributes"],
+        ["xpath=//app-a2o-filtro-intervalo[8]/div/div/div/a2o-input/mat-form-field/div/div/div[3]/input", "xpath:position"]
+      ],
+      "value": "409,00"
+    }, {
+      "id": "f6f3598c-b9a5-4057-ac6c-7fc2605c6a99",
+      "comment": "",
+      "command": "click",
+      "target": "id=mat-input-34",
+      "targets": [
+        ["id=mat-input-34", "id"],
+        ["css=#mat-input-34", "css:finder"],
+        ["xpath=//input[@id='mat-input-34']", "xpath:attributes"],
+        ["xpath=//app-a2o-filtro-intervalo[8]/div/div/div/a2o-input[2]/mat-form-field/div/div/div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "304c7d61-c2d9-4cb5-b79a-95d5d29a691f",
+      "comment": "",
+      "command": "type",
+      "target": "id=mat-input-34",
+      "targets": [
+        ["id=mat-input-34", "id"],
+        ["css=#mat-input-34", "css:finder"],
+        ["xpath=//input[@id='mat-input-34']", "xpath:attributes"],
+        ["xpath=//app-a2o-filtro-intervalo[8]/div/div/div/a2o-input[2]/mat-form-field/div/div/div[3]/input", "xpath:position"]
+      ],
+      "value": "409,00"
+    }, {
+      "id": "543f0e27-fcef-4a78-b445-b6ab625fb0e7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=(//button[@type='button'])[23]", "xpath:attributes"],
+        ["xpath=//mat-card-content/div/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Pesquisar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4f39d838-0588-4ac5-9364-2deec9fca46e",
+      "comment": "",
+      "command": "click",
+      "target": "css=p-tableheadercheckbox .p-checkbox-box",
+      "targets": [
+        ["css=p-tableheadercheckbox .p-checkbox-box", "css:finder"],
+        ["xpath=//p-tableheadercheckbox/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e322b214-7ee9-45ed-9a22-9531ee1cb1b2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.botao-opcoes .fad",
+      "targets": [
+        ["css=.botao-opcoes .fad", "css:finder"],
+        ["xpath=//i[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "13dd5a88-3158-441c-bea6-2d4c289253a0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-tns-c111-28:nth-child(1) > .mat-menu-item",
+      "targets": [
+        ["css=.ng-tns-c111-28:nth-child(1) > .mat-menu-item", "css:finder"],
+        ["xpath=//div[@id='mat-menu-panel-0']/div/app-a2o-botao-item/button", "xpath:idRelative"],
+        ["xpath=//app-a2o-botao-item/button", "xpath:position"],
+        ["xpath=//button[contains(.,' Realizar Conciliação Bancária')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8ba71d20-4d7a-4354-878c-98d4bc18a6f2",
+      "comment": "",
+      "command": "click",
+      "target": "id=mat-input-36",
+      "targets": [
+        ["id=mat-input-36", "id"],
+        ["css=#mat-input-36", "css:finder"],
+        ["xpath=//input[@id='mat-input-36']", "xpath:attributes"],
+        ["xpath=//mat-dialog-container[@id='mat-dialog-1']/app-conciliacao-coletiva/mat-card/mat-card-content/form/div/div/app-a2o-data/div/div/mat-form-field/div/div/div[3]/input", "xpath:idRelative"],
+        ["xpath=//form/div/div/app-a2o-data/div/div/mat-form-field/div/div/div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6fe9a95f-3717-430f-8568-f9f4df750c39",
+      "comment": "",
+      "command": "type",
+      "target": "id=mat-input-36",
+      "targets": [
+        ["id=mat-input-36", "id"],
+        ["css=#mat-input-36", "css:finder"],
+        ["xpath=//input[@id='mat-input-36']", "xpath:attributes"],
+        ["xpath=//mat-dialog-container[@id='mat-dialog-1']/app-conciliacao-coletiva/mat-card/mat-card-content/form/div/div/app-a2o-data/div/div/mat-form-field/div/div/div[3]/input", "xpath:idRelative"],
+        ["xpath=//form/div/div/app-a2o-data/div/div/mat-form-field/div/div/div[3]/input", "xpath:position"]
+      ],
+      "value": "19/11/2021"
+    }, {
+      "id": "c77d9ea2-fd27-43a7-8719-f5cd88f81ba8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-success",
+      "targets": [
+        ["css=.btn-success", "css:finder"],
+        ["xpath=//mat-dialog-container[@id='mat-dialog-1']/app-conciliacao-coletiva/mat-card/mat-card-content/form/div/div[3]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Ok')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "19022476-dfab-43f0-8a83-1da8ad283e2c",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0c0c8877-989b-4c5f-9375-6a18d29e2793",
+      "comment": "",
+      "command": "pause",
+      "target": "2000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bb4a3db4-e98f-4841-8839-61ac608b7a2a",
+      "comment": "",
+      "command": "click",
+      "target": "id=mat-input-19",
+      "targets": [
+        ["id=mat-input-19", "id"],
+        ["css=#mat-input-19", "css:finder"],
+        ["xpath=//input[@id='mat-input-19']", "xpath:attributes"],
+        ["xpath=//app-a2o-filtro-intervalo[2]/div/div/div/app-a2o-data/div/div/mat-form-field/div/div/div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "968e8c10-1a4b-4406-8b27-0aa5307d04cf",
+      "comment": "",
+      "command": "type",
+      "target": "id=mat-input-19",
+      "targets": [
+        ["id=mat-input-19", "id"],
+        ["css=#mat-input-19", "css:finder"],
+        ["xpath=//input[@id='mat-input-19']", "xpath:attributes"],
+        ["xpath=//app-a2o-filtro-intervalo[2]/div/div/div/app-a2o-data/div/div/mat-form-field/div/div/div[3]/input", "xpath:position"]
+      ],
+      "value": "19/11/2021"
+    }, {
+      "id": "a14d19fe-137a-4fe5-b5eb-b9c3327362a9",
+      "comment": "",
+      "command": "type",
+      "target": "id=mat-input-20",
+      "targets": [
+        ["id=mat-input-20", "id"],
+        ["css=#mat-input-20", "css:finder"],
+        ["xpath=//input[@id='mat-input-20']", "xpath:attributes"],
+        ["xpath=//app-a2o-filtro-intervalo[2]/div/div/div/app-a2o-data[2]/div/div/mat-form-field/div/div/div[3]/input", "xpath:position"]
+      ],
+      "value": "19/11/2021"
+    }, {
+      "id": "e5302a05-23f1-45e6-953b-5380f10e0058",
+      "comment": "",
+      "command": "click",
+      "target": "id=mat-select-value-1",
+      "targets": [
+        ["id=mat-select-value-1", "id"],
+        ["css=#mat-select-value-1", "css:finder"],
+        ["xpath=//div[@id='mat-select-value-1']", "xpath:attributes"],
+        ["xpath=//mat-select[@id='mat-select-0']/div/div", "xpath:idRelative"],
+        ["xpath=//mat-select/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "405c75fa-9d87-4ca0-ab87-45ac68a86fde",
+      "comment": "",
+      "command": "click",
+      "target": "css=#mat-option-447 > .mat-option-text",
+      "targets": [
+        ["css=#mat-option-447 > .mat-option-text", "css:finder"],
+        ["xpath=//mat-option[@id='mat-option-447']/span", "xpath:idRelative"],
+        ["xpath=//mat-option[2]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d4955997-3828-40c2-966e-f0272bae3a23",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=(//button[@type='button'])[23]", "xpath:attributes"],
+        ["xpath=//mat-card-content/div/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Pesquisar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e81d0b52-daa4-429a-b891-a943fb94e3e5",
+      "comment": "",
+      "command": "click",
+      "target": "css=p-tableheadercheckbox .p-checkbox-box",
+      "targets": [
+        ["css=p-tableheadercheckbox .p-checkbox-box", "css:finder"],
+        ["xpath=//p-tableheadercheckbox/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fad2bfc4-2fee-4219-a2de-6e61ffa0eae6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.botao-opcoes .fad",
+      "targets": [
+        ["css=.botao-opcoes .fad", "css:finder"],
+        ["xpath=//i[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f245adf8-8637-47f7-826f-2626a0d451dd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-tns-c111-28:nth-child(2) > .mat-menu-item",
+      "targets": [
+        ["css=.ng-tns-c111-28:nth-child(2) > .mat-menu-item", "css:finder"],
+        ["xpath=//div[@id='mat-menu-panel-0']/div/app-a2o-botao-item[2]/button", "xpath:idRelative"],
+        ["xpath=//app-a2o-botao-item[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,' Cancelar Conciliação Bancária')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
   }],
   "suites": [{
     "id": "78620614-102e-44f4-8e3c-447445aa8e54",
