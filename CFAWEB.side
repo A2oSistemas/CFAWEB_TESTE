@@ -29297,7 +29297,7 @@
     }]
   }, {
     "id": "edb0f2f5-b4b3-44bf-9314-5259fa38bf1e",
-    "name": "login (19)",
+    "name": "agn_gerenciadorcarregamento",
     "commands": [{
       "id": "227fce7e-b426-474f-822d-66711f3d0f2f",
       "comment": "",
@@ -29406,7 +29406,7 @@
     }]
   }, {
     "id": "99833ea8-4d33-4b15-a7a3-ebee61a8d39e",
-    "name": "login (20)",
+    "name": "agn_gerenciadorcontratocompra",
     "commands": [{
       "id": "ecd3b928-f75e-4697-9a4e-f46515a56ba7",
       "comment": "",
@@ -29515,7 +29515,7 @@
     }]
   }, {
     "id": "d9df30bf-04a2-4e05-bdcb-864998ad4528",
-    "name": "login (21)",
+    "name": "agn_gerenciadorcontratovenda",
     "commands": [{
       "id": "d62dcdbe-f4b8-4c19-b285-287bbd69ac99",
       "comment": "",
