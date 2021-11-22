@@ -26294,6 +26294,84 @@
     "id": "a0c15148-0893-4724-bfc9-7cc80460386b",
     "name": "teste",
     "commands": [{
+      "id": "394fc278-f4ef-48a2-b342-e8f38f90b089",
+      "comment": "",
+      "command": "type",
+      "target": "id=mat-input-0",
+      "targets": [
+        ["id=mat-input-0", "id"],
+        ["css=#mat-input-0", "css:finder"],
+        ["xpath=//input[@id='mat-input-0']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "saj"
+    }, {
+      "id": "448d6524-50d5-4079-81d4-a30d9b3eb546",
+      "comment": "",
+      "command": "type",
+      "target": "id=mat-input-1",
+      "targets": [
+        ["id=mat-input-1", "id"],
+        ["css=#mat-input-1", "css:finder"],
+        ["xpath=//input[@id='mat-input-1']", "xpath:attributes"],
+        ["xpath=//div[2]/mat-form-field/div/div/div[2]/input", "xpath:position"]
+      ],
+      "value": "1"
+    }, {
+      "id": "ef254a2e-7913-460a-8513-a0562e78f566",
+      "comment": "",
+      "command": "type",
+      "target": "id=mat-input-2",
+      "targets": [
+        ["id=mat-input-2", "id"],
+        ["css=#mat-input-2", "css:finder"],
+        ["xpath=//input[@id='mat-input-2']", "xpath:attributes"],
+        ["xpath=//div[3]/mat-form-field/div/div/div[2]/input", "xpath:position"]
+      ],
+      "value": "master"
+    }, {
+      "id": "81367c97-83f1-46c2-b7a7-7da857087bc0",
+      "comment": "",
+      "command": "type",
+      "target": "id=mat-input-3",
+      "targets": [
+        ["id=mat-input-3", "id"],
+        ["css=#mat-input-3", "css:finder"],
+        ["xpath=//input[@id='mat-input-3']", "xpath:attributes"],
+        ["xpath=//div[4]/mat-form-field/div/div/div[2]/input", "xpath:position"]
+      ],
+      "value": "1"
+    }, {
+      "id": "0e1f7bd3-1800-4855-8b0d-b51c350e71a0",
+      "comment": "",
+      "command": "type",
+      "target": "id=mat-input-4",
+      "targets": [
+        ["id=mat-input-4", "id"],
+        ["css=#mat-input-4", "css:finder"],
+        ["xpath=//input[@id='mat-input-4']", "xpath:attributes"],
+        ["xpath=//div[5]/mat-form-field/div/div/div[2]/input", "xpath:position"]
+      ],
+      "value": "1"
+    }, {
+      "id": "030b3c85-091d-4c25-abf9-ca6945e916c1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btnLogin",
+      "targets": [
+        ["css=.btnLogin", "css:finder"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Acessar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "036f94bd-8a26-4541-be61-681454af1293",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
       "id": "18db7f0c-de3b-45a9-98a7-24b8143979d4",
       "comment": "",
       "command": "open",
