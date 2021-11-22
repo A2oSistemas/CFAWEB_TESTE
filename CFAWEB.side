@@ -26364,37 +26364,6 @@
         ["xpath=//button[contains(.,'Acessar')]", "xpath:innerText"]
       ],
       "value": ""
-    }, {
-      "id": "036f94bd-8a26-4541-be61-681454af1293",
-      "comment": "",
-      "command": "close",
-      "target": "",
-      "targets": [],
-      "value": ""
-    }, {
-      "id": "18db7f0c-de3b-45a9-98a7-24b8143979d4",
-      "comment": "",
-      "command": "open",
-      "target": "http://192.168.0.30:3035/#/login",
-      "targets": [],
-      "value": ""
-    }, {
-      "id": "257800ac-635b-4789-a1d7-5acb27f19ff4",
-      "comment": "",
-      "command": "setWindowSize",
-      "target": "1440x915",
-      "targets": [],
-      "value": ""
-    }, {
-      "id": "1ca79212-90ab-40e0-a12f-6e1ac2d89713",
-      "comment": "",
-      "command": "click",
-      "target": "css=.login",
-      "targets": [
-        ["css=.login", "css:finder"],
-        ["xpath=//app-login/div", "xpath:position"]
-      ],
-      "value": ""
     }]
   }, {
     "id": "1473ccf2-3a84-495b-8a34-ececf687f63f",
